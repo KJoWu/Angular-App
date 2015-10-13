@@ -16,9 +16,12 @@
     </header>
 
     <div ng-controller="StoreController as store">
-    	<h1>asda{{store.product.name}}</h1>
-		<h2>sd{{store.product.price}}</h2>
-		<p>sds{{store.product.description}}</p>
+    	<h1>{{store.product.name}}</h1>
+		<h2>${{store.product.price}}</h2>
+		<p>{{store.product.description}}</p>
+		
+		<button ng-show="store.product.canPurchase">Add to cart</button>
   </body>
 
 </html>
+

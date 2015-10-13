@@ -8,9 +8,10 @@
   });
 
   var gem = {
-  	name:"asdasd",
+  	name:"Cool Product 1",
   	price: 2.95,
-  	descriptiom: '..'
+  	description: "it's cool thing",
+  	canPurchase:true
   }
 
 
