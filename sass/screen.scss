@@ -44,6 +44,13 @@
 		height:8em;
 	}
 }
+
+.books{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
 /* --------------------------
   Media Queries
 --------------------------- */

@@ -110,51 +110,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 8em;
 }
 
+/* line 48, ../sass/screen.scss */
+.books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* --------------------------
   Media Queries
 --------------------------- */
 @media (min-width: 769px) {
-  /* line 52, ../sass/screen.scss */
+  /* line 59, ../sass/screen.scss */
   .main-header {
     height: 200px;
     justify-content: flex-end;
   }
 
-  /* line 56, ../sass/screen.scss */
+  /* line 63, ../sass/screen.scss */
   .site-logo {
     width: 140px;
   }
 
-  /* line 59, ../sass/screen.scss */
+  /* line 66, ../sass/screen.scss */
   .nav {
     margin-top: 3em;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  /* line 64, ../sass/screen.scss */
+  /* line 71, ../sass/screen.scss */
   .nav a {
     border-bottom-color: transparent;
   }
 }
 @media (min-width: 1025px) {
-  /* line 70, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .main-header {
     flex-direction: row;
   }
 
-  /* line 73, ../sass/screen.scss */
+  /* line 80, ../sass/screen.scss */
   .site-logo {
     margin-right: auto;
   }
 
-  /* line 76, ../sass/screen.scss */
+  /* line 83, ../sass/screen.scss */
   .nav {
     margin-top: 0;
     align-self: center;
   }
 
-  /* line 80, ../sass/screen.scss */
+  /* line 87, ../sass/screen.scss */
   .nav li {
     margin-left: .65em;
     margin-right: .65em;
